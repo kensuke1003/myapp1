@@ -1,0 +1,19 @@
+<Item />　はJSXの書き方であるが、コンパイル後にItem()　の関数の実行に置き換わる。なので、引数を与えることが可能。
+仮引数としてのprops
+引数を与える場合の書き方
+    <Item content={'チェルシー'} />
+
+    Item({content: 'チェルシー'}) のようにコンパイルされる
+
+List.jsからItem.jsに仮引数として渡している
+
+
+propsを使わず、直接入力する場合
+const Item = ({content}) => {
+    return (
+        <li>
+            <input type="checkbox" />
+            <span>{content}</span>
+        </li>
+    )
+}

@@ -1,0 +1,11 @@
+h1{
+  color:black;
+  background: linear-gradient(skyblue,yellow);
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  font-style: oblique;
+  border-radius: 5px;
+  line-height: 1.1;
+  margin-top: 25px;
+};

@@ -1,0 +1,17 @@
+.no{
+  width: 300px;
+  background-color: pink;
+}
+
+.yes{
+  width: 150px;
+  margin-left: 70px;
+  background-color: darkcyan;
+  color: yellow;
+  border-radius: 5px;
+}
+
+.iii{
+  display: flex;
+  justify-content: center;
+}
